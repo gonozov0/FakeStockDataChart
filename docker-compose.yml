@@ -1,0 +1,12 @@
+services:
+  dashboard:
+    image: fake-stock-data-chart/dashboard
+    ports:
+      - 8050:8050
+    volumes:
+      - ./src:/app
+
+  stock_data_generator:
+    image: fake-stock-data-chart/stock_data_generator
+    volumes:
+      - ./src:/app
