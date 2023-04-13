@@ -11,6 +11,10 @@ Pet project for the study of new technologies:
 - alembic
 - pydantic
 
+### Building
+
+exec `./deploy/build.sh`
+
 ### Running
 
 exec `docker-compose up` and open `http://0.0.0.0:8050/`
